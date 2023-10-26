@@ -218,6 +218,13 @@ body {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 40px;
+    align-items: center;
+}
+
+.grid-logo {
+    max-width: 100%;
 }
 
 /* buisness */
@@ -685,6 +692,7 @@ body {
 
     .companies-grid {
         grid-template-columns: 1fr 1fr;
+
     }
 
     .companies-grid div {
@@ -692,6 +700,9 @@ body {
         align-items: center;
         justify-content: center;
     }
+
+
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -731,5 +742,10 @@ body {
         border-right: 2px Solid #D9D9D9;
         margin-right: 14px;
         height: 40px;
+    }
+
+    .header-img {
+        width: 80%;
+        object-fit: contain;
     }
 }
